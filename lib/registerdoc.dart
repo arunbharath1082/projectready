@@ -4,7 +4,6 @@ import 'animation.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 void main() {
-
   runApp(IICpage());
 }
 
