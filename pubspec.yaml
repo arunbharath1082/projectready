@@ -1,0 +1,42 @@
+name: ICC
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  simple_animations: ^2.2.1
+  awesome_dialog: ^1.1.3
+  syncfusion_flutter_pdf: ^18.2.45-beta
+
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/settings.png
+    - assets/image_2.jpeg
+    - assets/Settings-icon.png
+    - assets/doctor.png
+    - assets/doctor1.png
+    - assets/patient.png
+    - assets/w1.jpeg
+    - assets/w5.jpeg
+    - assets/w4.jpeg
+    - assets/cloud.jpg
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf
+        - asset: fonts/PlayfairDisplay-VariableFont_wght.ttf
